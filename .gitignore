@@ -1,0 +1,12 @@
+# Ignorar arquivos objeto e binários do gcc
+*.o
+*.out
+*.exe
+# Ignorar executáveis sem extensão (Linux)
+*/a.out
+a.out
+# Ignorar todos os arquivos sem extensão gerados pelo gcc
+*~
+# Ignorar arquivos de backup do editor
+*~
+*.swp
