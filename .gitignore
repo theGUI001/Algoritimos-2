@@ -10,3 +10,5 @@ a.out
 # Ignorar arquivos de backup do editor
 *~
 *.swp
+# Ignora os arquivos zip de entrega
+*.zip
