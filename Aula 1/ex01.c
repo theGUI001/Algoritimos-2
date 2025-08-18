@@ -3,14 +3,14 @@
 
 float readCelcius();
 float celciusToFahrenheit(float celcius);
-void printFahrenheit(float fahrenheit);
+void printFahrenheit(float celcius, float fahrenheit);
 
 void main()
 {
     setlocale(LC_ALL, "pt_BR.UTF-8");
     float celcius = readCelcius();
     float fahrenheit = celciusToFahrenheit(celcius);
-    printFahrenheit(fahrenheit);
+    printFahrenheit(celcius, fahrenheit);
 }
 
 float readCelcius()
@@ -26,7 +26,7 @@ float celciusToFahrenheit(float celcius)
     return (celcius * 9 / 5) + 32;
 }
 
-void printFahrenheit(float fahrenheit)
+void printFahrenheit(float celcius, float fahrenheit)
 {
-    printf("A temperatura em Fahrenheit é: %.2f\n", fahrenheit);
+    printf("%.2f Celsius são %.2f Fahrenheit\n", celcius, fahrenheit);
 }
