@@ -9,3 +9,13 @@ void main()
 
     printf("Valor de r: %d\n", *ptr_r);
 }
+
+/*
+TABELA DE VARIÁVEIS
++----------------+--------+---------------+
+| Nome Variável  | Tipo   | Valor         |
++----------------+--------+---------------+
+| r              | int    | 5 -> 10       |
+| ptr_r          | int*   | endereço de r |
++----------------+--------+---------------+
+*/
